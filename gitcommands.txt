@@ -26,8 +26,8 @@ git add . (to add all changes)
 
 git stash 
 
-//Use command 'git pop' to pop
-//Use command 'git stash' to hide
-
+//Command 'git pop' to pop
+//Command 'git stash' to hide
+//COmmand 'git stash clear' to clear 
 
 
