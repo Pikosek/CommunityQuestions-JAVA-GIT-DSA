@@ -1,11 +1,33 @@
+##Initialization
+
 git init (initialization)
 git config user.name "name"
 git config user.email "email adress"
 git add * (adding all changes in project)
 git commit -m "some init msg" (-m mean message in cut)
 
-So that's the flow path to should be 
+//So that's the flow path to should be 
 
-If we wanted to take an added file from the stage We would go to use command 
+//If we wanted to take an added file from the stage We would go to use command 
 git restore --staged <file>
+
+##Reset the project to the commit what we wanted
+git reset <commit id>
+
+
+##Stashing objects in project
+//First why are going to do some changes in project, like delete file etc.
+//After that, we will use command
+
+git status (to check changes)
+git add . (to add all changes)
+
+//Hence when we want to save that changes but not comitted, we will use
+
+git stash 
+
+//Use command 'git pop' to pop
+//Use command 'git stash' to hide
+
+
 
