@@ -28,6 +28,21 @@ git stash
 
 //Command 'git pop' to pop
 //Command 'git stash' to hide
-//COmmand 'git stash clear' to clear 
+//COmmand 'git stash clear' to clear
+
+##Branches
+
+//Create new branch
+
+git branch <name>
+
+//Choose your current branch to work with it
+
+git checkout <name>
+
+//Merge your branch with main branch
+
+git merge <name of branch you wanna merge with main>
+
 
 
