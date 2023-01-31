@@ -1,0 +1,11 @@
+git init (initialization)
+git config user.name "name"
+git config user.email "email adress"
+git add * (adding all changes in project)
+git commit -m "some init msg" (-m mean message in cut)
+
+So that's the flow path to should be 
+
+If we wanted to take an added file from the stage We would go to use command 
+git restore --staged <file>
+
