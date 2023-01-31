@@ -22,7 +22,7 @@ git reset <commit id>
 git status (to check changes)
 git add . (to add all changes)
 
-//Hence when we want to save that changes but not comitted, we will use
+//So when we want to save that changes but not comitted, we will use
 
 git stash 
 
