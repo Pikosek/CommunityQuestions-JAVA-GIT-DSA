@@ -44,5 +44,27 @@ git checkout <name>
 
 git merge <name of branch you wanna merge with main>
 
+##Upstream and clone
+
+//download the version which you wanna use
+git clone <ssh url>
+
+//add the link original version of project
+git remote add upstream <ssh url> 
+
+//remove the link original version of project
+git remote remove upstream
+
+//Upstream allows you to pull request to original project and working on it, but not in directly way, 
+/you must create a pull request which one must approved by orginal accout owner, thats in short means merge like on your projects
+//Hence you must create a new branch to new feature like you do in your own projects to pull request, because its good path to good project structure on github.com
+
+##Pullrequest
+//To create your pullrequest, go to your project, click pull request and create new "New Pull Request"
+/You can see base repository, main and your head repository and your comparing branch to do pull request
+
+
+
+
 
 
