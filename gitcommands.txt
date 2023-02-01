@@ -1,48 +1,86 @@
 ##Initialization
-
+        //So that's the flow path to should be 
 git init (initialization)
 git config user.name "name"
 git config user.email "email adress"
 git add * (adding all changes in project)
 git commit -m "some init msg" (-m mean message in cut)
 
-//So that's the flow path to should be 
 
-//If we wanted to take an added file from the stage We would go to use command 
+        //To take away an added file from the stage We would go to use command 
 git restore --staged <file>
 
-##Reset the project to the commit what we wanted
+        //Comeback to the commit what we want and delete changes what you done
 git reset <commit id>
 
 
+
+
 ##Stashing objects in project
-//First why are going to do some changes in project, like delete file etc.
-//After that, we will use command
 
-git status (to check changes)
-git add . (to add all changes)
+        //check all changes using command
+git status
 
-//So when we want to save that changes but not comitted, we will use
 
+        //add all or specify changes to commit or stash
+git add . 
+git add <file>
+
+
+        //Save changes but not comitt
+
+        //stash your currnet changes
 git stash 
 
-//Command 'git pop' to pop
-//Command 'git stash' to hide
-//COmmand 'git stash clear' to clear
+        //pop your stashed changes
+git pop
+
+        //hide your changes
+git stash
+
+        //clear your stashed changes
+git stash clear
+
 
 ##Branches
 
-//Create new branch
+        //Create new branch && remove branch
 
 git branch <name>
 
-//Choose your current branch to work with it
+git branch --delete <name>
+
+        //Choose your current branch to work with it
 
 git checkout <name>
 
-//Merge your branch with main branch
+        //Merge your branch with main branch
 
 git merge <name of branch you wanna merge with main>
 
+##Upstream and clone
 
+        //download the version which you wanna use
+git clone <ssh url>
+
+        //add the link original version of project
+git remote add upstream <ssh url> 
+
+        //remove the link original version of project
+git remote remove upstream
+
+**Upstream allows you to pull request to original project and working on it, but not in directly way, 
+*you must create a pull request which one must approved by orginal accout owner, thats in short means merge like on your projects
+**Hence you must create a new branch to new feature like you do in your own projects to pull request, because its good path to good project structure on github.com
+
+##Fetches
+
+
+//Manual option of it
+git fetch --all --prune
+
+//
+
+**Our merge was approved by original owner of project, so our branch main doesnt change, so we need to do fetch
+**Its like our project haven't done changes, cause our changes has been on another branch putting aside branch main
 
