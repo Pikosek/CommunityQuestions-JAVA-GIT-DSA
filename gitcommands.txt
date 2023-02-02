@@ -44,9 +44,11 @@ git stash clear
 
 ##Branches
 
-        //Create new branch
+        //Create new branch && remove branch
 
 git branch <name>
+
+git branch --delete <name>
 
         //Choose your current branch to work with it
 
@@ -71,12 +73,14 @@ git remote remove upstream
 *you must create a pull request which one must approved by orginal accout owner, thats in short means merge like on your projects
 **Hence you must create a new branch to new feature like you do in your own projects to pull request, because its good path to good project structure on github.com
 
-##Pullrequest
-**To create your pullrequest, go to your project, click pull request and create new "New Pull Request"
-*You can see base repository, main and your head repository and your comparing branch to do pull request
+##Fetches
 
 
+//Manual option of it
+git fetch --all --prune
 
+//
 
-
+**Our merge was approved by original owner of project, so our branch main doesnt change, so we need to do fetch
+**Its like our project haven't done changes, cause our changes has been on another branch putting aside branch main
 
