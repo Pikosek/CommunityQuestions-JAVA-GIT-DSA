@@ -58,7 +58,7 @@ git checkout <name>
 
 git merge <name of branch you wanna merge with main>
 
-##Upstream and clone
+##Forking
 
         //download the version which you wanna use
 git clone <ssh url>
@@ -79,8 +79,23 @@ git remote remove upstream
 //Manual option of it
 git fetch --all --prune
 
-//
+//Reset/update your code to main branch of original project
+git reset --hard upstream/main
+*Now you your main have the same things of upstream/main
+
+//One command of it
+git pull upstream main
+
 
 **Our merge was approved by original owner of project, so our branch main doesnt change, so we need to do fetch
 **Its like our project haven't done changes, cause our changes has been on another branch putting aside branch main
+
+##Rebase
+
+//Squashing commits in one
+git rebase -i <id commit>
+
+
+
+
 
