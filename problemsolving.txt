@@ -1,0 +1,11 @@
+Binary Search
+Is starting from middle element of array and compares target element with middle element, after that Algorithm choose side of array from middle point to searching targeting element.
+
+1. Find the middle element
+2. while m<target search in the right side
+else search in the left side
+3. if middle element == target element // ans
+Pos. 0, 1,  2,  3,  4,  5,  6,  7,  8,  9
+Arr. {1, 5,  6,  9,  11, 17, 19, 25, 34, 40}
+
+(0+9)/2 = 4

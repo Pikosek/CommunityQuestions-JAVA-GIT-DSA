@@ -1,0 +1,3 @@
+
+Złożoność czasowa (Time complexity)
+Like Complexity of algorithms, its define were how many steps between input of output
