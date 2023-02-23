@@ -1,15 +1,14 @@
 package com.pikosek.searching;
 
-public class CeilingNumber {
+public class FloorNumber {
     public static void main(String[] args){
         int[] arr = {5,7,8,9,15,37,50};
         int target = 16;
-        System.out.println(ceiling(arr, target));
+        System.out.println(floor(arr, target));
 
     }
-
-    //return greatest number >= target
-    static int ceiling(int[] arr, int target){
+    //return the target greatest number <= target
+    static int floor(int[] arr, int target){
         int start = 0;
         int end = arr.length -1;
         int mid = 0;
@@ -30,6 +29,6 @@ public class CeilingNumber {
                 return mid;
             }
         }
-        return start;
+        return end;
     }
 }
