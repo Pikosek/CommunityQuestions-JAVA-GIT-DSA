@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41fbe454-c42d-4af3-bb15-77909039b531" name="Changes" comment="" />
+    <list default="true" id="41fbe454-c42d-4af3-bb15-77909039b531" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pikosek/searching/BinarySerach.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/pikosek/searching/BinarySerach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/matura11.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +49,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -59,20 +66,7 @@
       <recent name="com.pikosek.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.matura11">
-    <configuration name="CeilingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.CeilingNumber" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pikosek.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PeakIndexMountainArray">
     <configuration name="FirstAndLastNumberSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.FirstAndLastNumberSA" />
       <module name="code" />
@@ -86,8 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloorNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.FloorNumber" />
+    <configuration name="InfinityArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.InfinityArray" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pikosek.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeakIndexMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.PeakIndexMountainArray" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -106,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestlETTER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.SmallestlETTER" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pikosek.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="matura11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="matura11" />
       <module name="code" />
@@ -126,13 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="weight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weight" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PeakIndexMountainArray" />
+        <item itemvalue="Application.weight" />
+        <item itemvalue="Application.InfinityArray" />
         <item itemvalue="Application.matura11" />
         <item itemvalue="Application.FirstAndLastNumberSA" />
-        <item itemvalue="Application.SmallestlETTER" />
-        <item itemvalue="Application.FloorNumber" />
-        <item itemvalue="Application.CeilingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -161,10 +162,17 @@
       <workItem from="1676973499186" duration="2201000" />
       <workItem from="1676979409589" duration="3451000" />
       <workItem from="1677056993760" duration="7511000" />
+      <workItem from="1677076424832" duration="3578000" />
+      <workItem from="1677142699684" duration="1430000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

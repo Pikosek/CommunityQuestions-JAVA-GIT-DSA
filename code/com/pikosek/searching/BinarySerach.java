@@ -4,20 +4,20 @@ public class BinarySerach {
     public static void main(String[] args) {
         int[] arr = {2,4,6,9,11,12,14,20,36,48};
         int target = 9;
-        System.out.println(search(arr, target));
+        System.out.println(binarysearch(arr, target));
     }
 
-    static int search(int[] arr, int target){
+    static int binarysearch(int[] arr, int target){
         int start = 0;
         int end = arr.length -1;
-        while(start <= end){  // 1. tr // 2. tr // 3. tr // 4.tr
-            int mid = start + (end - start) / 2; // 1. 4 // 2. 1 // 3. 2 + (3-2) / 2 = 2,5 == 2 // 4. 3+(3 -3) /2 == 3
-            if(target < arr[mid]){ // 1. true
-                end = mid -1; // 1. 3
+        while(start <= end){
+            int mid = start + (end - start) / 2;
+            if(target < arr[mid]){
+                end = mid -1;
 
-            }else if (target > arr[mid]){ // 2. true // 3. true
-                start = mid + 1; // 2. 2 // 3. 3
-            } else { // 4. true
+            }else if (target > arr[mid]){
+                start = mid + 1;
+            } else {
                 return mid;
             }
         }

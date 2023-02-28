@@ -7,43 +7,34 @@ public class FirstAndLastNumberSA {
     public static void main(String[] args) {
         int[] arr = {5,7,7,8,8,10};
         int target = 8;
-        System.out.println(Arrays.toString(search(arr,target)));
+        System.out.println(Arrays.toString(search(arr, target)));
     }
-    static int[] search(int[] nums, int target){
-            int[] ans = {-1, -1};
-            int start = binarysearch(nums,target, true);
-            int end = binarysearch(nums,target,false);
-            ans[0] = start;
-            ans[1] = end;
-
-            return ans;
+    static int[] search(int[] arr, int target){
+        return new int[]{binarysearch(arr, target, true), binarysearch(arr, target, false)};
     }
 
-    static int binarysearch(int[] nums, int target, boolean findStart){
+    static int binarysearch(int[] arr, int target, boolean findstart){
         int ans = -1;
         int start = 0;
-        int end = nums.length -1;
-        //start point
+        int end = arr.length -1;
         while(start <= end){
-            int mid = start + (end - start) / 2; //2
-            if(target < nums[mid]){
+            int mid = start + (end - start) / 2;
+            if(target < arr[mid]){
                 end = mid -1;
 
-            }else if (target > nums[mid]){
+            }else if (target > arr[mid]){
                 start = mid + 1;
             } else {
                 ans = mid;
-                if(findStart){
+                if(findstart){
                     end = mid -1;
                 }else{
                     start = mid +1;
                 }
-                //searching for start
-
-                }
             }
-        return ans;
         }
+        return ans;
+    }
     }
 
 
