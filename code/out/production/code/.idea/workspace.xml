@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="41fbe454-c42d-4af3-bb15-77909039b531" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/pikosek/searching/OrderAgnosticBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/pikosek/searching/OrderAgnosticBS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/interfejs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Solution.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +63,7 @@
       <recent name="com.pikosek.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.findpivot">
-    <configuration name="CeilingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.CeilingNumber" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pikosek.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.nauka">
     <configuration name="FirstAndLastNumberSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.FirstAndLastNumberSA" />
       <module name="code" />
@@ -111,21 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.ed" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pikosek.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findpivot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="findpivot" />
+    <configuration name="bs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bs" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nauka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nauka" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.findpivot" />
+        <item itemvalue="Application.nauka" />
+        <item itemvalue="Application.bs" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SerachinRotatedSortedArray" />
         <item itemvalue="Application.FirstAndLastNumberSA" />
-        <item itemvalue="Application.ed" />
-        <item itemvalue="Application.CeilingNumber" />
       </list>
     </recent_temporary>
   </component>
