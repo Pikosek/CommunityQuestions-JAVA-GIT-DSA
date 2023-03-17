@@ -1,9 +1,9 @@
 package com.pikosek.searching;
-
+//a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,r,s,t,u,w,y,z
 public class SmallestlETTER {
     public static void main(String[] args){
         char[] arr = {'c','f','j'};
-        char target = 'c';
+        char target = 'a';
         System.out.println(nextGreatestLetter(arr, target));
 
     }

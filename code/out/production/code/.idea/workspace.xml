@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41fbe454-c42d-4af3-bb15-77909039b531" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/array2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/chartest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pikosek/searching/CeilingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/pikosek/searching/CeilingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pikosek/searching/PeakIndexMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/pikosek/searching/PeakIndexMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pikosek/searching/SerachinRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/pikosek/searching/SerachinRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/pikosek/searching/SmallestlETTER.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/pikosek/searching/SmallestlETTER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nauka.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/CeilingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/CeilingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/PeakIndexMountainArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/PeakIndexMountainArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/SerachinRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/SerachinRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/SmallestlETTER.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/com/pikosek/searching/SmallestlETTER.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/nauka.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +74,9 @@
       <recent name="com.pikosek.searching" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.nauka">
-    <configuration name="FirstAndLastNumberSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.FirstAndLastNumberSA" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pikosek.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerachinRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.SerachinRotatedSortedArray" />
+  <component name="RunManager" selected="Application.serachin2dmatrix">
+    <configuration name="PeakIndexMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.PeakIndexMountainArray" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -97,34 +95,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="array2d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.array2d" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bs" />
+    <configuration name="obliczenia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.obliczenia" />
       <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nauka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nauka" />
+    <configuration name="searchinmatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.searchinmatrix" />
       <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serachin2dmatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pikosek.searching.serachin2dmatrix" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pikosek.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.nauka" />
-        <item itemvalue="Application.bs" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.SerachinRotatedSortedArray" />
-        <item itemvalue="Application.FirstAndLastNumberSA" />
+        <item itemvalue="Application.serachin2dmatrix" />
+        <item itemvalue="Application.obliczenia" />
+        <item itemvalue="Application.searchinmatrix" />
+        <item itemvalue="Application.array2d" />
+        <item itemvalue="Application.PeakIndexMountainArray" />
       </list>
     </recent_temporary>
   </component>

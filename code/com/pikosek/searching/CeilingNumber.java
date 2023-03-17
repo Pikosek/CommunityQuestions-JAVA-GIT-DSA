@@ -3,7 +3,7 @@ package com.pikosek.searching;
 public class CeilingNumber {
     public static void main(String[] args){
         int[] arr = {5,7,8,9,15,37,50};
-        int target = 16;
+        int target = 15;
         System.out.println(ceiling(arr, target));
 
     }
