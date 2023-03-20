@@ -1,3 +1,29 @@
 
 Złożoność czasowa (Time complexity)
 Like Complexity of algorithms, its define were how many steps between input of output
+
+Typy języków które powinienem znać na pamięć, że są:
+Procedural
+- Without garbage collection, good to bulid systems, program in one line
+- Steps by steps to create a program
+Functional
+- Have functions, which can be use in code but funcional languages dont share code for more space in project
+Object Oriented
+- Have a objects which can be use in communicate with other objects creating a complicated programming projects
+
+
+
+Statyczny język vs Dynamiczny
+
+Statyczny język programowania
+- Sprawdzanie kodu podczas kompilowania ~Compile Time
+- Potrzeba zdeklarowania zmiennych
+- Bardziej bezpieczny
+
+Dynamiczny język programowania
+- Kod jest sprawdzany podczas czasu uruchomionego programu ~Run Time
+- Nie ma potrzebny deklaracji zmiennych
+Na przykład gdy mamy sytuacje; Stwierdziliśmy, że potrzebna nam funkcja która polega na zapisaniu nowej zmiennej int poprzez wprowadzenie danych przez użytkownika. Użytkownik podczas programu wpisał, złą wartość String zatem otrzymaliśmy error podczas programu. 
+- Jest szybszy w pisaniu, ponieważ możemy używać kodu wiele razy, ale może sprawdziać problemy poprzez błędy in run time
+
+
