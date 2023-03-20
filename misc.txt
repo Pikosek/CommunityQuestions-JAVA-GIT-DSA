@@ -27,3 +27,23 @@ Na przykład gdy mamy sytuacje; Stwierdziliśmy, że potrzebna nam funkcja któr
 - Jest szybszy w pisaniu, ponieważ możemy używać kodu wiele razy, ale może sprawdziać problemy poprzez błędy in run time
 
 
+Remember about flowcharts
+
+Flowcharts its primiary way to show your idea/concept of your code.
+The best 2 ways are psuedocode and blockcharts
+
+Psuedocode look something like this:
+
+start
+input num
+c = 2
+while c != num:
+if c < 10
+output "is less than 10"
+exit
+c = c + 1
+end while
+output "c is equal to num"
+exit
+
+
