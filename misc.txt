@@ -46,4 +46,9 @@ end while
 output "c is equal to num"
 exit
 
+*JDK
+-JRE (Java in oracle which have Java Runtime Enviroment)
+--JVM
+
+
 
